@@ -37,4 +37,4 @@ http.createServer(function (request, response) {
         response.end('Wow, this was an awesome '+request.method+' request. But you were requestesd to make a POST request.!\n'); 
    }
    
-}).listen(process.env.port);
+}).listen(process.env.PORT);
