@@ -28,7 +28,7 @@ http.createServer(function (request, response) {
 
         // Send the response body as "Hello Cloud"
 
-        response.end('Hello Cloud\, I am process no'+procID); 
+        response.end('Hello Cloud\, I am process no: '+procID); 
     
 
    } 
